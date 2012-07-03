@@ -10,14 +10,14 @@ A Xymon client on your Puppet master.
 
 Installation & Usage
 --------------------
-1. Install xymon_report as a module in your Puppet master's module path.
-2. Adapt xymon_report.yaml and move the file to /etc/puppet/xymon_report.yaml :
+* Install xymon_report as a module in your Puppet master's module path.
+* Adapt xymon_report.yaml and move the file to /etc/puppet/xymon_report.yaml :
 * xymon_servers : it's a list of your xymon servers.
 * xymon_test_name : the column name in Xymon.
 * xymon_test_ttl : the TTL of this test. If your Puppet Agent runs every hour, set TTL to 1h minimum.
 * xymon_bin_path : xymon client binary.
 * clean_message : remove some content from the report (host, md5sum...)
-3. Edit `/etc/puppet/puppet.conf` on your PuppetMaster and add xymon_report to your reports line :
+* Edit `/etc/puppet/puppet.conf` on your PuppetMaster and add xymon_report to your reports line :
 `reports = log, http, xymon_report`
 
 Author
