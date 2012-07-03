@@ -1,0 +1,6 @@
+name    'binbashfr-xymon_report'
+version '0.0.1'
+author  'binbashfr'
+license 'Apache License, Version 2.0'
+summary 'A Puppet report handler for sending notifications to Xymon'
+project_page 'https://github.com/binbashfr/binbashfr-xymon_report'

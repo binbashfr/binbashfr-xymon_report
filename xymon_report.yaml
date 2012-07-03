@@ -1,0 +1,7 @@
+---
+:xymon_servers:
+- xymon.home
+:xymon_test_name: 'puppet'
+:xymon_test_ttl: '1h'
+:xymon_bin_path: '/usr/bin/xymon'
+:clean_message: 'yes'
